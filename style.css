@@ -50,7 +50,6 @@
   display: grid;
   grid-row: 1 / 3;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  align-content: start;
 }
 
 .user-handle > span::before {
@@ -123,4 +122,8 @@
 
 .project {
   display: grid;
+}
+
+.project-title {
+  align-self: end;
 }
