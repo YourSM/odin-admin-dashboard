@@ -129,6 +129,9 @@ body {
 
 .project {
   display: grid;
+  border-radius: 12px;
+  border-left: rgb(161, 231, 202) solid 12px;
+  box-shadow: rgb(235, 174, 204) 3px 4px 7px;
 }
 
 .project-title {
