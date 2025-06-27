@@ -3,9 +3,13 @@
   margin: 0;
 }
 
+body {
+  background-color: rgb(233, 224, 224);
+}
+
 .container {
   display: grid;
-  grid-template-columns:  1fr 3fr;
+  grid-template-columns:  1fr 5fr;
 }
 
 .header {
@@ -30,6 +34,8 @@
   display: grid;
   grid-area: 2 / 2;
   grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  margin: 0 2rem 0 2rem;
 }
 
 .search-bar {
@@ -49,7 +55,8 @@
 .user-projects {
   display: grid;
   grid-row: 2 / 5;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
 }
 
 .user-handle > span::before {
@@ -157,4 +164,16 @@
   height: 60px;
   width: 60px;
   background-size: 100%;
+}
+
+.project,
+.header,
+.announcements,
+.trending-projects {
+  background-color: white;
+  padding: 20px;
+}
+
+.sidebar {
+  background-color: rgb(70, 211, 230);
 }
