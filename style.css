@@ -17,6 +17,7 @@ body {
   display: grid;
   grid-template-columns: 3fr 1fr;
   margin-bottom: 1rem;
+  box-shadow: rgb(235, 174, 204) 3px 4px 7px;
 }
 
 .sidebar {
@@ -168,6 +169,7 @@ body {
 .search-container {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .search-container > span::before {
@@ -198,8 +200,7 @@ h3 {
 
 .trending-projects,
 .project,
-.announcements,
-.header {
+.announcements {
   border-radius: 12px;
   box-shadow: rgb(235, 174, 204) 3px 4px 7px;
 }
