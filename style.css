@@ -172,12 +172,12 @@ body {
   gap: 0.5rem;
 }
 
-.search-container > span::before {
+.search-container > .icon::before {
   display: inline-block;
   content: "";
-  background-image: url(./profilePictures/bocchiProfile.png);
-  height: 60px;
-  width: 60px;
+  background-image: url(./icons/magnify.svg);
+  height: 30px;
+  width: 30px;
   background-size: 100%;
 }
 
