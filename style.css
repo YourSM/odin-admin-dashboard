@@ -64,14 +64,15 @@ body {
   display: inline-block;
   content: "";
   background-image: url(./profilePictures/bocchiProfile.png);
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   background-size: 100%;
 }
 
 .user-handle {
   display: grid;
   grid-template: auto 1fr / auto 1fr;
+  gap: 0.8rem;
 }
 
 .user-handle div {
@@ -201,4 +202,14 @@ h3 {
 .header {
   border-radius: 12px;
   box-shadow: rgb(235, 174, 204) 3px 4px 7px;
+}
+
+.handle-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.handle-intro {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
