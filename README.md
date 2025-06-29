@@ -19,6 +19,7 @@ As for the icons and profiles, the prior are done by inlining SVGs, while the la
 This was a very successful adventure into CSS Grid and one I am thrilled to have taken!
 
 Upon finishing this project, I better understand the way grids implicitly create rows and columns as well as how to use them to my advantage in creating a layout, for example.
+
 I also learned how to work with SVGs and the process of design, among many more aspects too abundant to list.
 
 Through the many times I have tried something and it didn't quite work the way I expected it to, not to mention the countless times I had spaces where I didn't anticipate them,
