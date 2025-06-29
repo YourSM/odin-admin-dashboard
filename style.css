@@ -140,6 +140,7 @@ body {
 .project-toolbar > svg {
   height: 35px;
   width: 35px;
+  fill: rgb(46, 46, 46);
 }
 
 .project-toolbar {
@@ -155,6 +156,7 @@ body {
 
 .project-title {
   font-size: 1.3rem;
+  align-self: end;
 }
 
 .buttons {
