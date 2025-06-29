@@ -125,7 +125,6 @@ body {
 .trending-profiles > span {
   display: inline-block;
   content: "";
-  background-image: url(./profilePictures/bocchiProfile.png);
   height: 60px;
   width: 60px;
   background-size: 100%;
@@ -267,4 +266,20 @@ h3 {
 
 .project > p {
   font-size: 1.2rem;
+}
+
+#kita-profile {
+  background-image: url(./profilePictures/kitaProfile.jpg);
+}
+
+#bocchi-profile {
+  background-image: url(./profilePictures/bocchiProfile.png);
+}
+
+#nijika-profile {
+  background-image: url(./profilePictures/nijikaProfile.jpg);
+}
+
+#ryo-profile {
+  background-image: url(./profilePictures/ryoProfile.jpg);
 }
