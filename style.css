@@ -169,12 +169,13 @@ body {
 
 .buttons > button {
   border-radius: 20px;
-  width: 85px;
-  height: 38px;
+  width: 90px;
+  height: 42px;
   background-color: rgb(27, 167, 125);
   border: none;
   color: white;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .search-container {
