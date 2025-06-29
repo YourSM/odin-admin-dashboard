@@ -223,3 +223,13 @@ h3 {
   width: 30px;
   background-size: 100%;
 }
+
+.announcements {
+  display:  grid;
+  gap: 0.5rem;
+}
+
+.announcements > div {
+  height: 0.1rem;
+  background-color: rgb(158, 155, 155);
+}
