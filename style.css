@@ -180,6 +180,7 @@ body {
   color: white;
   font-weight: bold;
   font-size: 1rem;
+  font-family: inherit;
 }
 
 .search-container {
