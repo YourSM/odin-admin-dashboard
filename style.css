@@ -159,7 +159,7 @@ body {
 }
 
 .project-title {
-  align-self: end;
+  font-size: 1.3rem;
 }
 
 .buttons {
@@ -263,4 +263,8 @@ h3 {
 
 .sidebar > .container {
   gap: 1rem;
+}
+
+.project > p {
+  font-size: 1.2rem;
 }
