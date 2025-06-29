@@ -137,19 +137,15 @@ body {
   grid-row: 1 / 3;
 }
 
-.project-toolbar > span {
-  display: inline-block;
-  content: "";
-  background-image: url(./profilePictures/bocchiProfile.png);
-  height: 60px;
-  width: 60px;
-  background-size: 100%;
+.project-toolbar > svg {
+  height: 35px;
+  width: 35px;
 }
 
 .project-toolbar {
   display: flex;
-  align-self: end;
   justify-self: end;
+  gap: 1rem;
 }
 
 .project {
